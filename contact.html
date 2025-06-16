@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mindful Break</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-spa"></i> Mindful Break</h1>
+            <p class="tagline">Transform your breaks into moments of rejuvenation</p>
+        </header>
+
+        <main class="contact-content">
+            <section class="contact-section">
+                <h2>Get in Touch</h2>
+                <p class="contact-intro">We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, we're here to help.</p>
+
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="feature">Feature Request</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>support@mindfulbreak.app</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-clock"></i>
+                            <h3>Response Time</h3>
+                            <p>We typically respond within 24 hours</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-comments"></i>
+                            <h3>Social Media</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Take care of yourself, one break at a time</p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html> 
